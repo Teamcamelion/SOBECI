@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.sobeci.fr/sitemap.xml
+
+# Désactiver l'indexation des fichiers CSS et JS (optionnel)
+Disallow: /css/
+Disallow: /js/
+
+# Autoriser les fichiers principaux
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /projets.html
+Allow: /contact.html
+

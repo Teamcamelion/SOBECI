@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez SOBECI pour votre projet de construction. Formulaire de contact, devis gratuit, téléphone et adresse. Nous répondons rapidement à toutes vos demandes.">
+    <meta name="keywords" content="contact SOBECI, devis gratuit, demande de devis, construction, rénovation">
+    <meta name="robots" content="index, follow">
+    <title>Contact - SOBECI | Demandez Votre Devis Gratuit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="index.html">SOBECI</a>
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html" class="btn-contact active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header section-padding">
+        <div class="container">
+            <h1>Contactez-Nous</h1>
+            <p>Nous sommes à votre écoute pour tous vos projets</p>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Demandez un Devis</h2>
+                    <p style="margin-bottom: 2rem; color: var(--text-light);">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. Tous nos devis sont gratuits et sans engagement.</p>
+                    
+                    <form id="contactForm" class="contact-form glass-card">
+                        <div class="form-group">
+                            <label for="name">Nom et Prénom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Type de projet *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un service</option>
+                                <option value="construction">Construction neuve</option>
+                                <option value="renovation">Rénovation</option>
+                                <option value="maçonnerie">Maçonnerie</option>
+                                <option value="electricite">Électricité</option>
+                                <option value="plomberie">Plomberie</option>
+                                <option value="amenagement-int">Aménagement intérieur</option>
+                                <option value="amenagement-ext">Aménagement extérieur</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet en détail..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Envoyer la demande</button>
+                    </form>
+                </div>
+                
+                <div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Nos Coordonnées</h2>
+                    
+                    <div class="service-card" style="margin-bottom: 2rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">📍 Adresse</h3>
+                        <p style="color: var(--text-light); line-height: 1.8;">
+                            Votre adresse<br>
+                            Code postal - Ville<br>
+                            France
+                        </p>
+                    </div>
+                    
+                    <div class="service-card" style="margin-bottom: 2rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">📞 Téléphone</h3>
+                        <p style="color: var(--text-light); line-height: 1.8;">
+                            <a href="tel:+33XXXXXXXXX" style="color: var(--secondary-color); text-decoration: none;">+33 (0)X XX XX XX XX</a><br>
+                            Du lundi au vendredi : 8h - 18h<br>
+                            Samedi : 9h - 12h
+                        </p>
+                    </div>
+                    
+                    <div class="service-card" style="margin-bottom: 2rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">📧 Email</h3>
+                        <p style="color: var(--text-light); line-height: 1.8;">
+                            <a href="mailto:contact@sobeci.fr" style="color: var(--secondary-color); text-decoration: none;">contact@sobeci.fr</a><br>
+                            Réponse sous 24h
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary-color);">⏰ Horaires</h3>
+                        <p style="color: var(--text-light); line-height: 1.8;">
+                            <strong>Lundi - Vendredi</strong><br>
+                            8h00 - 18h00<br><br>
+                            <strong>Samedi</strong><br>
+                            9h00 - 12h00<br><br>
+                            <strong>Dimanche</strong><br>
+                            Fermé
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Pourquoi Nous Choisir ?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✅</div>
+                    <h3>Devis Gratuit</h3>
+                    <p>Demandez un devis détaillé et gratuit sans engagement de votre part.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Réponse Rapide</h3>
+                    <p>Nous vous répondons sous 24h pour toutes vos demandes de renseignements.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3>Conseil Personnalisé</h3>
+                    <p>Notre équipe vous conseille et vous accompagne dans votre projet.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>Suivi de Projet</h3>
+                    <p>Un interlocuteur dédié suit votre projet de A à Z.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SOBECI</h3>
+                    <p>Votre partenaire de confiance en construction générale</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 contact@sobeci.fr</li>
+                        <li>📞 +33 (0)X XX XX XX XX</li>
+                        <li>📍 Votre adresse</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horaires</h4>
+                    <ul>
+                        <li>Lun - Ven: 8h - 18h</li>
+                        <li>Samedi: 9h - 12h</li>
+                        <li>Dimanche: Fermé</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SOBECI. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
+
